@@ -5,17 +5,26 @@ body {
 header{
   padding: 100px;
   background-color: green;
+  display:flex;;
 }
 main{
-  background-color: burlywood;
-  padding : 50px;
+
+
+  display: flex;
+}
+#icon{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
 }
 
 .img{
   display: flex;
   text-align: center;
-  padding: 100px;
   justify-content: space-between;
+
+  width :1000px;
+  padding: 25px;
 }
 
 img {
@@ -34,6 +43,23 @@ h2{
 }
 footer{
   background-color: green;
-  padding: 100px;
+  padding: 100px;s
+}
+div {
 
+}
+aside{
+  border: 1px solid;
+  width: 400px;
+}
+p{
+  font-size: 20px;
+}
+section{
+  margin-top: 180px;
+  height: 270px;
+  padding-top: 130px;
+}
+#sec1{
+  margin-top: 120px;
 }
