@@ -5,7 +5,9 @@ body {
 header{
   padding: 100px;
   background-color: green;
-  display:flex;;
+}
+#header{
+  display: flex;
 }
 main{
 
@@ -17,7 +19,14 @@ main{
   height: 200px;
   margin-top: 30px;
 }
-
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav li{
+  width: 70px;
+  border : 2px solid ;
+}
 .img{
   display: flex;
   text-align: center;
